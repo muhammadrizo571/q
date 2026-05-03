@@ -22,11 +22,13 @@ const App = () => {
         </ul>
 
         <div className=" flex justify-evenly items-center gap-[30px] ">
-
+          <p>
+          <span className='text-[10px]'>Director number: <br /> </span>  
           <a href="tel:+9985710515">+998775710515</a>
+          </p>
 
           {/* Open the modal using document.getElementById('ID').showModal() method */}
-<button className="btn" onClick={()=>document.getElementById('my_modal_5').showModal()}>open modal</button>
+<button className="btn btn-info w-[100px] h-[35px] hover:scale-95" onClick={()=>document.getElementById('my_modal_5').showModal()}>Book</button>
 <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box">
     <h3 className="font-bold text-lg">Hello!</h3>
@@ -40,7 +42,7 @@ const App = () => {
   </div>
 </dialog>
 
-          <div className=" flex justify-around bg-gray-400 w-[60px] p-1 rounded ">
+          <div className=" flex justify-around items-center bg-gray-400 w-[60px] h-[35px]  rounded ">
             <a target='blank' href="https://t.me"> <img src={telegram_icon} alt="" /> </a>
             <a target='blank' href="https://instagram.com"> <img src={instagram_icon} alt="" /> </a>
           </div>
