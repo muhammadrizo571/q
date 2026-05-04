@@ -5,23 +5,24 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import telegram_icon from './assets/telegram.svg'
 import instagram_icon from './assets/instagram.svg'
-
+import logo from './assets/logo.png'
 
 
 const App = () => {
   return (
   <BrowserRouter>
-    <div className='max-w-[1200px] m-auto mt-[100px] rounded-[20px]'>
-      <div className=" w-[100%] h-[100px] bg-[red] flex justify-evenly items-center  rounded-tl-[20px] rounded-tr-[20px] ">
-        <h1 className='text-[24px] font-extrabold' >1-ish </h1>
+    <div className='max-w-[1440px] m-auto mt-[100px] rounded-[20px] mb-[100px]'>
+      <h1  className='text-[24px] font-extrabold flex items-center gap-3  '  >1-ish</h1>
+      <div className=" w-[100%] h-[100px] bg-gradient-to-r from-gray-500 to-gray-300 flex justify-evenly items-center  rounded-tl-[20px] rounded-tr-[20px] ">
+        <h1 className='text-[24px] font-extrabold flex items-center gap-3 ' > <img src={logo} alt="" /></h1>
 
-        <ul className='flex justify-center items-center gap-[30px] text-[20px] font-bold' >
+        <ul className='flex justify-center items-center gap-[40px] text-[20px] font-bold' >
           <li> <Link to= "/" > Home</Link>   </li>
           <li> <Link to= "/about" > About</Link>   </li>
           <li> <Link to= "/contact" > Contact</Link>   </li>
         </ul>
 
-        <div className=" flex justify-evenly items-center gap-[30px] ">
+        <div className=" flex justify-evenly items-center gap-[40px] ">
           <p>
           <span className='text-[10px]'>Director number: <br /> </span>  
           <a href="tel:+9985710515">+998775710515</a>
