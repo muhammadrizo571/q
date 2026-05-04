@@ -8,5 +8,5 @@
 .header
 {
     background: url('./assets/1.jpg') no-repeat center/cover;
-    background-size: 100% ;
+    background-size: 100% 600px;
 }

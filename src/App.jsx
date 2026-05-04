@@ -11,8 +11,8 @@ import instagram_icon from './assets/instagram.svg'
 const App = () => {
   return (
   <BrowserRouter>
-    <div className='max-w-[1200px] border-2 border-t-green-300 m-auto mt-[100px] rounded-tl-[32px] rounded-tr-[32px]'>
-      <div className=" w-[100%] h-[100px] bg-[red] flex justify-evenly items-center  rounded-tl-[32px] rounded-tr-[32px] ">
+    <div className='max-w-[1200px] m-auto mt-[100px] rounded-[20px]'>
+      <div className=" w-[100%] h-[100px] bg-[red] flex justify-evenly items-center  rounded-tl-[20px] rounded-tr-[20px] ">
         <h1 className='text-[24px] font-extrabold' >1-ish </h1>
 
         <ul className='flex justify-center items-center gap-[30px] text-[20px] font-bold' >
@@ -31,12 +31,19 @@ const App = () => {
 <button className="btn btn-info w-[100px] h-[35px] hover:scale-95" onClick={()=>document.getElementById('my_modal_5').showModal()}>Book</button>
 <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box">
-    <h3 className="font-bold text-lg">Hello!</h3>
-    <p className="py-4">Press ESC key or click the button below to close</p>
+    <h3 className="font-bold text-lg">Hello MAHMUDJON esi yoq!</h3>
+    <p className="py-4"> Pastegi tugmani bosing chom </p>
     <div className="modal-action">
-      <form method="dialog">
+      <form className=' flex flex-col relative  ' method="dialog">
         {/* if there is a button in form, it will close the modal */}
-        <button className="btn">Close</button>
+
+        <input className=' w-[400px] ml-[40px] ' type="number" placeholder=' Mahsulot narxi' /> <br />
+
+        <input className=' w-[400px] ml-[40px] ' type="text" placeholder=' Mahsulot rangi' /> <br />
+
+        <input  className=' w-[400px] ml-[40px] ' type="text" placeholder='Mahsulotning nimaduri' /> 
+
+        <button className="btn w-[100px] ml-[400px] mt-2 position-[right]">Close</button>
       </form>
     </div>
   </div>

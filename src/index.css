@@ -2,6 +2,13 @@
 @import "daisyui/daisyui.css";
 @import 'flag-icons/css/flag-icons.css';
 
+*
+{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
  .mk
 {
     background-color: rgba(50, 66, 99, 0.716);

@@ -8,7 +8,10 @@ import droplet from '../assets/droplet.svg'
 
 const Hom = () => {
   return (
-    <div className=' h-[500px] header flex ' >
+    <div className=' h-auto flex rounded-b-[20px]  flex-wrap    ' >
+
+<div className=" h-auto flex rounded-b-[20px]  flex-wrap w-[100%] pb-[30px] header">
+
 
       <div className="w-[48%] pt-[70px]">
         <div className="text-white ml-[100px]">
@@ -53,7 +56,38 @@ const Hom = () => {
       </h1>
       </div>
 
+</div>
+
+     
+
+      <div className=" w-[100%] mt-[100px]">
+
+        <div className="flex justify-between">
+
+        <h3 className='flex flex-col text-[50px]'>
+          <span>Types of</span>
+          <span className=' text-[blue]'>AquaSystem</span>
+        </h3>
+
+        <span className='flex gap-[14px]'>
+
+        <button className='btn btn-success rounded-[25px] gap-[15px] bg-black text-white border-black '> Bitcoin <img className='bg-white rounded-2xl p-2 mr-[-13px] ' src={bitcoin} alt="" /> </button>
+        <button className='btn btn-success rounded-[25px] gap-[15px] bg-white text-black border-white'> Bitcoin <img className='bg-[blue] rounded-2xl p-2 mr-[-13px] ' src={bitcoin} alt="" /> </button>
+        
+        </span>
+
+
+        </div>
+
+
+        <div className=" w-[600px] h-[400px] bg-blue-600 "></div>     
+        <div className=" w-[600px] h-[400px] bg-blue-600 "></div>
+
+      </div> 
       
+
+
+
     </div>
   )
 }
