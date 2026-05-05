@@ -348,7 +348,7 @@ const Hom = () => {
           </h1>
           <p className='text-white' > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem et provident in ratione. Debitis illo incidunt sed nemo, accusantium veritatis excepturi laboriosam qui distinctio, ratione ex, placeat tenetur praesentium? Voluptatem! </p>
           <div className=" flex gap-[20px] ">
-            <button className='btn btn-success  text-white '> Contact with telegram </button>
+            <button className='btn btn-success  text-white '> <a href="https://t.me/Mahmudjon_Uktamov"></a> </button>
             <button className='btn bg-transparent text-white '> Book call </button>
           </div>
         </div>
