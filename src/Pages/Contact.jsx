@@ -1,10 +1,14 @@
 import React from 'react'
+import {card} from './Map'
 
 const Contact = () => {
   return (
-    <div className='bg-emerald-400 h-[300px] '>
-        <h1 align='center' >CONTACT-PAGE</h1>
-    </div>
+    <div className=' max-[1440px] : h-auto border-2 '>
+
+
+
+
+</div>
   )
 }
 
