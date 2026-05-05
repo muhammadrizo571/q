@@ -32,17 +32,17 @@ const App = () => {
 <button className="btn btn-info w-[100px] h-[35px] hover:scale-95" onClick={()=>document.getElementById('my_modal_5').showModal()}>Book</button>
 <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box">
-    <h3 className="font-bold text-lg">Hello MAHMUDJON esi yoq!</h3>
-    <p className="py-4"> Pastegi tugmani bosing chom </p>
+    <h3 className="font-bold text-lg">welcome</h3>
+    <p className="py-4"> to tell information </p>
     <div className="modal-action">
       <form className=' flex flex-col relative  ' method="dialog">
         {/* if there is a button in form, it will close the modal */}
 
-        <input className=' w-[400px] ml-[40px] ' type="number" placeholder=' Mahsulot narxi' /> <br />
+        <input className=' w-[400px] ml-[40px] ' type="number" placeholder='product price' /> <br />
 
-        <input className=' w-[400px] ml-[40px] ' type="text" placeholder=' Mahsulot rangi' /> <br />
+        <input className=' w-[400px] ml-[40px] ' type="text" placeholder=' product color' /> <br />
 
-        <input  className=' w-[400px] ml-[40px] ' type="text" placeholder='Mahsulotning nimaduri' /> 
+        <input  className=' w-[400px] ml-[40px] ' type="text" placeholder='product size' /> 
 
         <button className="btn w-[100px] ml-[400px] mt-2 position-[right]">Close</button>
       </form>
