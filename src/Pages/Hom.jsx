@@ -17,7 +17,7 @@ import icon from '../assets/icon.svg'
 import icon1 from '../assets/icon1.svg'
 import icon2 from '../assets/icon2.svg'
 import line from '../assets/line.png'
-
+import rasm from '../assets/1.jpg'
 
 
 
@@ -26,8 +26,8 @@ const Hom = () => {
   return (
     <div className=' h-auto flex rounded-b-[20px]  flex-wrap    ' >
 
-<div className=" h-auto flex rounded-b-[20px]  flex-wrap w-[100%] pb-[30px] header">
-
+style={{backgroundImage:`url(${rasm})`,backgroundSize:'cover'}}
+<div className=" h-auto flex rounded-b-[20px]  flex-wrap w-[100%] pb-[30px] ">
 
       <div className="w-[48%] pt-[70px]">
         <div className="text-white ml-[100px]">
